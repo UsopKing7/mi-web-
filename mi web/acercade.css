@@ -1,0 +1,32 @@
+* {
+    color: white;
+}
+
+.contenido {
+    padding: 30px;
+    border: 1px solid white;
+}
+
+.sobre-mi {
+    width: 250px;
+    height: 300px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-image: url(https://scontent.flpb1-2.fna.fbcdn.net/v/t39.30808-6/400515972_1195671474723797_1526154077112871394_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=TJXiV-Bqss4Q7kNvgEwB1yp&_nc_oc=AdjhlLWBhOlCzAiJ-12cHAlarHElibGpoKrfPcRBMZaE7Mu8PrRgJzDMkEacwFx6PbMIiNGFK2YEOJzJ9K69DGWz&_nc_zt=23&_nc_ht=scontent.flpb1-2.fna&_nc_gid=AjhGa50BhT3-IFBT5QTiIih&oh=00_AYDJGCCiJZv9tVnDUrDXDNsDyuKIm1Hn90RcApJf1ogKJQ&oe=677E02D8);
+
+}
+
+.texto-box {
+    width: 250px;
+    height: 150px;
+    border: 1px solid white;
+}
