@@ -17,21 +17,29 @@
 
 .sobre-mi {
     width: 500px;
+    padding: 20px;
     height: 600px;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(180deg, #001011, #171c1f);
+    box-shadow: 4px 8px 16px 0 rgba(255, 255, 255, 0.1);
 }
 
 .foto {
-    width: 150px;
-    height: 150px;
+    box-shadow: 4px 8px 16px 0 rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.img-info {
+    width: 199px ;
+    height: 199px ;
+    border-radius: 50%;
 }
 
 .texto-box {
@@ -40,14 +48,7 @@
     border: 1px solid white;
 }
 
-.img-info {
-    width: 150px ;
-    height: 150px ;
-    border-radius: 50%;
-}
-
 .texto-fondo {
-    font-family: nicolas;
     font-size: 16px;
     text-decoration: none;
     padding: 15px;
