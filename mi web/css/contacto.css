@@ -1,0 +1,23 @@
+.redes {
+    margin-top: 150px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-redes {
+    width: 300px;
+    height: 300px;
+}
+
+.img-redes:hover {
+    width: 320px;
+    height: 320px;
+}
+
+p { 
+    font-family: nicolas2;
+}

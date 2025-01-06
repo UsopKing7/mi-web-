@@ -1,6 +1,17 @@
 @font-face {
+    font-family: nicolas2;
+    src: url(../fuentes/Aladin/Aladin-Regular.ttf);
+}
+
+@font-face {
     font-family: nicolas;
     src: url(../fuentes/static/DancingScript-Medium.ttf);
+}
+.fondo-img {
+    background-color: #001011;
+    top: 0;
+    margin: 0;
+    left: 0;
 }
 
 * {
@@ -8,8 +19,6 @@
 }
 
 .contenido {
-    padding: 30px;
-    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,6 +33,8 @@
     align-items: center;
     background: linear-gradient(180deg, #001011, #171c1f);
     box-shadow: 4px 8px 16px 0 rgba(255, 255, 255, 0.1);
+    margin: 30px;
+    border-radius: 10px;
 }
 
 .foto {
@@ -43,13 +54,75 @@
 }
 
 .texto-box {
-    width: 250px;
-    height: 150px;
-    border: 1px solid white;
+    font-family: nicolas2;
+    width: 500px;
+    height: 380px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .texto-fondo {
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
-    padding: 15px;
+}
+
+.texto-fondo ul {
+    margin-top: 0px;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sistema-operativo {
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #001011, #171c1f);
+    box-shadow: 4px 8px 16px 0 rgba(255, 255, 255, 0.1);
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.img-op {
+    width: 399px;
+    height: 199px;
+    border-radius: 5px;
+}
+
+.python {
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #001011, #171c1f);
+    box-shadow: 4px 8px 16px 0 rgba(255, 255, 255, 0.1);
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.img-lenguaje {
+    width: 399px;
+    height: 199px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-py {
+    width: 299px;
+    height: 199px;
 }

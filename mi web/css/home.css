@@ -1,0 +1,24 @@
+.contenido-home {
+    width: 100%;
+    height: 100%;
+    margin-top: 110px;
+}
+
+.sub-titulo {
+    text-align: center;
+}
+
+.img-chico {
+    width: 400px;
+    height: 400px;
+}
+
+ul li {
+    font-family: nicolas2;
+    margin: 40px;
+}
+
+.img-herramienta {
+    width: 150px;
+    height: 150px;
+}
