@@ -64,12 +64,12 @@
 }
 
 .texto-fondo {
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
 }
 
 .texto-fondo ul {
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 li {
